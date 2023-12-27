@@ -1,13 +1,22 @@
-# Sample Hardhat Project
+## Swap ERC20 Tokens effectively on UniswapV3 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Contract to swap ERC20 tokens on UniswapV3
 
-Try running some of the following tasks:
+### Pre- Requisites
+
+- Metamask Account
+- Node js and npm
+
+### Setting up locally 
+
+Set up env according to .env.example
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn
+```
+
+### Running Tests
+
+```shell
+yarn hardhat test
 ```
